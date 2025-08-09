@@ -11,7 +11,7 @@ spec:
     path: helm-chart   # folder in repo with Helm chart or K8s YAMLs
   destination:
     server: https://kubernetes.default.svc
-    namespace: my-app
+    namespace: argocd
   syncPolicy:
     automated:
       prune: true
