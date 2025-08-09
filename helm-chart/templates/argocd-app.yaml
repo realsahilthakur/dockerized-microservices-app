@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/realsahilthakur/dockerized-microservices-app.git
     targetRevision: master
-    path: helm-chart   # folder in repo with Helm chart or K8s YAMLs
+    path: helm-chart  
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
